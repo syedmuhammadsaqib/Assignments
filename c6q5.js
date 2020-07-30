@@ -1,0 +1,13 @@
+var a = window.prompt("enter 1st subject name : ");
+var b = window.prompt("enter 2nd subject name: ");
+var c = window.prompt("enter 3rd subject name: ");
+var total= 100;
+var total1= total*3;
+var d = Number(prompt("enter 1st subject marks: "));
+var e= Number(prompt("enter 2nd subject marks: "));
+var f = Number(prompt("enter 3rd subject marks: "));
+var sum = (d + e + f);
+var pt=(sum*100)/total1;
+var p= (d/total)*100;
+var p1=(e/total)*100;
+var p2=(f/total)*100;

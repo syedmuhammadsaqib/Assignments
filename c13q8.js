@@ -1,0 +1,12 @@
+var names=["ali","maaz","khan"];
+var marks =window.prompt("enter marks");
+var marks1=window.prompt("enter marks");
+var marks2=window.prompt("enter marks");
+var marks3=[marks,marks1,marks2];
+var total=500;
+var p=(marks/total)*100;
+var p1=(marks1/total)*100;
+var p2=(marks2/total)*100;
+document.write("<br>"+"score of"+ names[0]+"is"+marks3[0]+"and percentage is" + p);
+document.write("<br>"+"score of"+ names[1]+"is"+marks3[1]+"and percentage is" + p1);
+document.write("<br>"+"score of"+ names[2]+"is"+marks3[2]+"and percentage is" + p2);

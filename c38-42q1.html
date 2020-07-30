@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function doMath(){<!--   w  ww .  j a va 2  s. co  m-->
+var inputNum1=document.form1.input1.value;
+var inputNum2=document.form1.input2.value;
+var result = Math.pow(inputNum1, inputNum2);
+document.form1.answer.value = result;
+}
+</script>
+</head>
+<body>
+<form name=form1>
+Enter Base number:
+<input type="text" name="input1" size=10>
+<br>
+Enter exponent to be raised to:
+<input type="text" name="input2" size=10>
+<input type="button" value="Calculate" onClick='doMath()'>
+<br>
+The result is:
+<input type="text" name="answer" size=10>
+</form>
+</body>
+</html>

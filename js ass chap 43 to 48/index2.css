@@ -1,0 +1,17 @@
+/* index 2 style */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+}
+.btn-lg{
+    margin-left: 10%;
+}
+ul li{
+    list-style-type: none;
+}
+.text-info{
+    font-size: 18px;
+    font-weight: bold;
+}

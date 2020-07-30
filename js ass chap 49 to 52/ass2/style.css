@@ -1,0 +1,13 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+tr{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.update-section, .update-btn{
+    display: none;
+}
+.show-this{
+    display: block;
+}

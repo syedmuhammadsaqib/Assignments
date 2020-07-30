@@ -1,0 +1,13 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-lg{
+    margin: 0 auto;
+}
+.rounded{
+    margin-left: 40%;
+    width: 20%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
